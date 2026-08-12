@@ -110,9 +110,6 @@ ul{
 <div class="language">
 
 <select id="language" onchange="changeLanguage()">
-
-document.getElementById("privacyNotice").innerText =
-translations[lang].privacy;
     
 <option value="it">Italiano</option>
 <option value="en">English</option>
@@ -138,7 +135,10 @@ translations[lang].privacy;
 <option value="lt">Lietuvių</option>
 <option value="mt">Malti</option>
 <option value="ga">Gaeilge</option>
-
+    
+document.getElementById("privacyNotice").innerText =
+translations[lang].privacy;
+    
 </select>
 
 </div>
