@@ -332,7 +332,6 @@ sv:{producer:"Producent",nutrition:"Näringsinformation",ingredients:"Ingrediens
 allergenText:"INNEHÅLLER SULFITER"},
 
 da:{producer:"Producent",nutrition:"Næringsindhold",ingredients:"Ingredienser",nutritionText:"Gennemsnitlige værdier pr. 100 ml vin",parameter:"Parameter",value:"Værdi",energy:"Energi",fat:"Fedt",saturated:"Mættet fedt",carbs:"Kulhydrater",sugars:"Sukkerarter",protein:"Protein",salt:"Salt",grape:"Økologiske druer fra egen produktion",sulphites:"Konserveringsmiddel og antioxidant: Svovldioxid (E220)",stabilizer:"Stabilisatorer: ingen",privacy:"Denne hjemmeside anvender ikke cookies, analyseværktøjer eller sporingssystemer.",organic:"ØKOLOGISK",allergenTitle:"ALLERGENER",
-2
 allergenText:"INDEHOLDER SULFITTER"},
 
 fi:{producer:"Valmistaja",nutrition:"Ravintoarvot",ingredients:"Ainesosat",nutritionText:"Keskimääräiset arvot / 100 ml viiniä",parameter:"Parametri",value:"Arvo",energy:"Energia",fat:"Rasva",saturated:"Tyydyttyneet rasvat",carbs:"Hiilihydraatit",sugars:"Sokerit",protein:"Proteiini",salt:"Suola",grape:"Luomurypäleet omasta tuotannosta",sulphites:"Säilöntäaine ja antioksidantti: Rikkidioksidi (E220)",stabilizer:"Stabilointiaineet: ei mitään",privacy:"Tämä verkkosivusto ei käytä evästeitä, analytiikkatyökaluja tai seurantajärjestelmiä.",organic:"LUOMU",allergenTitle:"ALLERGEENIT",
@@ -345,7 +344,6 @@ lv:{producer:"Ražotājs",nutrition:"Uzturvērtība",ingredients:"Sastāvdaļas"
 allergenText:"SATUR SULFĪTUS"},
 
 lt:{producer:"Gamintojas",nutrition:"Maistinė vertė",ingredients:"Sudedamosios dalys",nutritionText:"Vidutinės vertės 100 ml vyno",parameter:"Parametras",value:"Vertė",energy:"Energija",fat:"Riebalai",saturated:"Sočiosios riebalų rūgštys",carbs:"Angliavandeniai",sugars:"Cukrūs",protein:"Baltymai",salt:"Druska",grape:"Ekologiškos vynuogės iš savo ūkio",sulphites:"Konservantas ir antioksidantas: Sieros dioksidas (E220)",stabilizer:"Stabilizatoriai: nėra",privacy:"Ši svetainė nenaudoja slapukų, analizės įrankių ar sekimo sistemų.",organic:"EKOLOGIŠKAS",allergenTitle:"ALERGENAI",
-2
 allergenText:"SUDĖTYJE YRA SULFITŲ"},
 
 mt:{producer:"Produttur",nutrition:"Informazzjoni Nutrizzjonali",ingredients:"Ingredjenti",nutritionText:"Valuri medji għal kull 100 ml inbid",parameter:"Parametru",value:"Valur",energy:"Enerġija",fat:"Xaħam",saturated:"Xaħam saturat",carbs:"Karboidrati",sugars:"Zokkor",protein:"Proteina",salt:"Melħ",grape:"Għeneb organiku mill-produzzjoni tagħna",sulphites:"Preservattiv u antiossidant: Dijossidu tal-kubrit (E220)",stabilizer:"Stabbilizzaturi: ebda",privacy:"Dan is-sit ma jużax cookies, għodod ta’ analiżi jew sistemi ta’ traċċar.",organic:"ORGANIKU",allergenTitle:"ALLERĠENI",
