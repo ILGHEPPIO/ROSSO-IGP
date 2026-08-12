@@ -9,23 +9,33 @@
 <style>
 
 body{
-    font-family:Arial,Helvetica,sans-serif;
-    background:#f5f5f5;
     margin:0;
     padding:20px;
+    font-family:Arial, Helvetica, sans-serif;
+    background:#f5f5f5;
     color:#333;
 }
 
 .container{
-    max-width:900px;
+    max-width:1000px;
     margin:auto;
 }
 
+.language{
+    text-align:right;
+    margin-bottom:15px;
+}
+
+.language select{
+    padding:8px;
+    font-size:15px;
+}
+
 .header{
-    background:white;
-    border-radius:12px;
-    padding:25px;
+    background:#ffffff;
     text-align:center;
+    padding:25px;
+    border-radius:12px;
     box-shadow:0 2px 10px rgba(0,0,0,.1);
 }
 
@@ -35,7 +45,7 @@ body{
 }
 
 .bottle{
-    max-width:300px;
+    max-width:260px;
     width:100%;
     display:block;
     margin:20px auto;
@@ -50,7 +60,7 @@ h1,h2{
     margin-top:20px;
     padding:20px;
     border-radius:12px;
-    box-shadow:0 2px 10px rgba(0,0,0,.1);
+    box-shadow:0 2px 10px rgba(0,0,0,.08);
 }
 
 table{
@@ -68,20 +78,15 @@ th{
     color:white;
 }
 
-.language{
-    text-align:right;
-    margin-bottom:15px;
-}
-
-.language select{
-    padding:8px;
-    font-size:15px;
-}
-
 footer{
     text-align:center;
     margin-top:30px;
     color:#666;
+    font-size:.95rem;
+}
+
+ul{
+    padding-left:20px;
 }
 
 </style>
@@ -126,27 +131,20 @@ footer{
 
 <div class="header">
 
-logo-gheppio.jpgLogo Il Gheppio" class="logo">
+<img src="logo-gheppio.jpg"
+     alt="Logo Il Gheppio"
+     class="logo">
 
-<imgjpg
+<img
+     class="bottle">
 
 <h1>IL GHEPPIO</h1>
 
-<p>
-<strong>UMBRIA ROSSO IGP 2024</strong>
-</p>
-
-<p>
-<strong>14,0% vol</strong>
-</p>
-
-</div>
-
-<div class="card">
+<p><strong>UMBRIA ROSSO IGP"card">
 
 <h2 id="producerTitle">Produttore</h2>
 
-<p id="producerText">
+<p>
 IL GHEPPIO Soc. Agr. S.S. di Antonini G. e C.<br>
 Loc. Argentella n. 1<br>
 06036 Montefalco (PG)<br>
@@ -166,17 +164,44 @@ Valori medi per 100 ml di vino
 <table>
 
 <tr>
-<th id="col1">Parametro</th>
-<th id="col2">Valore</th>
+<th id="parameterHeader">Parametro</th>
+<th id="valueHeader">Valore</th>
 </tr>
 
-<tr><td>Energia</td><td>339 kJ / 82 kcal</td></tr>
-<tr><td>Grassi</td><td>0 g</td></tr>
-<tr><td>Acidi grassi saturi</td><td>0 g</td></tr>
-<tr><td>Carboidrati</td><td>1 g</td></tr>
-<tr><td>Zuccheri</td><td>1 g</td></tr>
-<tr><td>Proteine</td><td>0 g</td></tr>
-<tr><td>Sale</td><td>0 g</td></tr>
+<tr>
+<td id="energyLabel">Energia</td>
+<td>339 kJ / 82 kcal</td>
+</tr>
+
+<tr>
+<td id="fatLabel">Grassi</td>
+<td>0 g</td>
+</tr>
+
+<tr>
+<td id="saturatedLabel">Acidi grassi saturi</td>
+<td>0 g</td>
+</tr>
+
+<tr>
+<td id="carbsLabel">Carboidrati</td>
+<td>1 g</td>
+</tr>
+
+<tr>
+<td id="sugarsLabel">Zuccheri</td>
+<td>1 g</td>
+</tr>
+
+<tr>
+<td id="proteinLabel">Proteine</td>
+<td>0 g</td>
+</tr>
+
+<tr>
+<td id="saltLabel">Sale</td>
+<td>0 g</td>
+</tr>
 
 </table>
 
@@ -186,19 +211,29 @@ Valori medi per 100 ml di vino
 
 <h2 id="ingredientsTitle">Ingredienti</h2>
 
-<ul id="ingredientsList">
-<li>Uva biologica di nostra produzione</li>
-<li>Conservante e antiossidante: Anidride Solforosa (E220)</li>
-<li>Stabilizzanti: nessuno</li>
+<ul>
+
+<li id="grapeItem">
+Uva biologica di nostra produzione
+</li>
+
+<li id="sulphitesItem">
+Conservante e antiossidante: Anidride Solforosa (E220)
+</li>
+
+<li id="stabilizerItem">
+Stabilizzanti: nessuno
+</li>
+
 </ul>
 
 </div>
 
 <div class="card">
 
-<h2 id="disposalTitle">Smaltimento imballaggi</h2>
+<h2>Smaltimento imballaggi</h2>
 
-<p id="disposalText">
+<p>
 Verifica le disposizioni del tuo Comune.
 </p>
 
@@ -244,59 +279,69 @@ Questo sito non utilizza cookie, analytics o sistemi di tracciamento.
 
 </div>
 
+<script src="translations.js"></script>
+
 <script>
-
-const translations = {
-
-it: {
-producer:"Produttore",
-nutrition:"Informazioni nutrizionali",
-ingredients:"Ingredienti",
-disposal:"Smaltimento imballaggi",
-nutritionText:"Valori medi per 100 ml di vino",
-disposalText:"Verifica le disposizioni del tuo Comune."
-},
-
-en: {
-producer:"Producer",
-nutrition:"Nutrition Information",
-ingredients:"Ingredients",
-disposal:"Packaging Disposal",
-nutritionText:"Average values per 100 ml of wine",
-disposalText:"Check your local disposal regulations."
-}
-
-};
 
 function changeLanguage(){
 
-let lang=document.getElementById("language").value;
+let lang = document.getElementById("language").value;
 
 if(!translations[lang]){
-lang="it";
+    lang="it";
 }
 
-document.getElementById("producerTitle").innerText=
+document.getElementById("producerTitle").innerText =
 translations[lang].producer;
 
-document.getElementById("nutritionTitle").innerText=
+document.getElementById("nutritionTitle").innerText =
 translations[lang].nutrition;
 
-document.getElementById("ingredientsTitle").innerText=
+document.getElementById("ingredientsTitle").innerText =
 translations[lang].ingredients;
 
-document.getElementById("disposalTitle").innerText=
-translations[lang].disposal;
-
-document.getElementById("nutritionText").innerText=
+document.getElementById("nutritionText").innerText =
 translations[lang].nutritionText;
 
-document.getElementById("disposalText").innerText=
-translations[lang].disposalText;
+document.getElementById("parameterHeader").innerText =
+translations[lang].parameter;
+
+document.getElementById("valueHeader").innerText =
+translations[lang].value;
+
+document.getElementById("energyLabel").innerText =
+translations[lang].energy;
+
+document.getElementById("fatLabel").innerText =
+translations[lang].fat;
+
+document.getElementById("saturatedLabel").innerText =
+translations[lang].saturated;
+
+document.getElementById("carbsLabel").innerText =
+translations[lang].carbs;
+
+document.getElementById("sugarsLabel").innerText =
+translations[lang].sugars;
+
+document.getElementById("proteinLabel").innerText =
+translations[lang].protein;
+
+document.getElementById("saltLabel").innerText =
+translations[lang].salt;
+
+document.getElementById("grapeItem").innerText =
+translations[lang].grape;
+
+document.getElementById("sulphitesItem").innerText =
+translations[lang].sulphites;
+
+document.getElementById("stabilizerItem").innerText =
+translations[lang].stabilizer;
 
 }
 
 </script>
-<script src="translations.js"></script>
+
 </body>
 </html>
