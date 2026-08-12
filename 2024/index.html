@@ -359,7 +359,20 @@ document.getElementById("privacyNotice").innerText =
 translations[lang].privacy;
 
 }
+window.onload = function() {
 
+    const browserLang =
+        navigator.language.substring(0,2);
+
+    const selector =
+        document.getElementById("language");
+
+    if(translations[browserLang]){
+        selector.value = browserLang;
+        changeLanguage();
+    }
+
+};
 </script>
 
 </body>
