@@ -17,7 +17,8 @@ salt:"Sale",
 grape:"Uva biologica di nostra produzione",
 sulphites:"Conservante e antiossidante: Anidride Solforosa (E220)",
 stabilizer:"Stabilizzanti: nessuno",
-privacy:"Questo sito non utilizza cookie, analytics o sistemi di tracciamento."
+privacy:"Questo sito non utilizza cookie, analytics o sistemi di tracciamento.",
+organic:"BIOLOGICO"
 },
 
 en:{
@@ -37,7 +38,8 @@ salt:"Salt",
 grape:"Organic grapes from our own production",
 sulphites:"Preservative and antioxidant: Sulphur dioxide (E220)",
 stabilizer:"Stabilizers: none",
-privacy:"This website does not use cookies, analytics or tracking systems."
+privacy:"This website does not use cookies, analytics or tracking systems.",
+organic:"ORGANIC"
 },
 
 fr:{
@@ -57,7 +59,8 @@ salt:"Sel",
 grape:"Raisins biologiques de notre production",
 sulphites:"Conservateur et antioxydant : Dioxyde de soufre (E220)",
 stabilizer:"Stabilisants : aucun",
-privacy:"Ce site n'utilise ni cookies, ni outils d'analyse, ni systèmes de suivi."
+privacy:"Ce site n'utilise ni cookies, ni outils d'analyse, ni systèmes de suivi.",
+organic:"BIOLOGIQUE"
 },
 
 de:{
@@ -77,7 +80,8 @@ salt:"Salz",
 grape:"Biologisch erzeugte Trauben aus eigener Produktion",
 sulphites:"Konservierungsstoff und Antioxidationsmittel: Schwefeldioxid (E220)",
 stabilizer:"Stabilisatoren: keine",
-privacy:"Diese Website verwendet keine Cookies, Analysewerkzeuge oder Tracking-Systeme."
+privacy:"Diese Website verwendet keine Cookies, Analysewerkzeuge oder Tracking-Systeme.",
+organic:"BIO"
 },
 
 es:{
@@ -97,7 +101,8 @@ salt:"Sal",
 grape:"Uvas ecológicas de nuestra producción",
 sulphites:"Conservante y antioxidante: Dióxido de azufre (E220)",
 stabilizer:"Estabilizantes: ninguno",
-privacy:"Este sitio no utiliza cookies, herramientas analíticas ni sistemas de seguimiento."
+privacy:"Este sitio no utiliza cookies, herramientas analíticas ni sistemas de seguimiento.",
+organic:"ECOLÓGICO"
 },
 
 pt:{
@@ -117,7 +122,8 @@ salt:"Sal",
 grape:"Uvas biológicas da nossa produção",
 sulphites:"Conservante e antioxidante: Dióxido de enxofre (E220)",
 stabilizer:"Estabilizantes: nenhum",
-privacy:"Este sítio não utiliza cookies, ferramentas analíticas nem sistemas de rastreamento."
+privacy:"Este sítio não utiliza cookies, ferramentas analíticas nem sistemas de rastreamento.",
+organic:"BIOLÓGICO"
 },
 
 nl:{
@@ -137,7 +143,8 @@ salt:"Zout",
 grape:"Biologische druiven uit eigen productie",
 sulphites:"Conserveermiddel en antioxidant: Zwaveldioxide (E220)",
 stabilizer:"Stabilisatoren: geen",
-privacy:"Deze website gebruikt geen cookies, analysetools of trackingsystemen."
+privacy:"Deze website gebruikt geen cookies, analysetools of trackingsystemen.",
+organic:"BIOLOGISCH"
 },
 
 pl:{
@@ -157,7 +164,8 @@ salt:"Sól",
 grape:"Ekologiczne winogrona z własnej produkcji",
 sulphites:"Konserwant i przeciwutleniacz: Dwutlenek siarki (E220)",
 stabilizer:"Stabilizatory: brak",
-privacy:"Ta strona nie używa plików cookie, narzędzi analitycznych ani systemów śledzenia."
+privacy:"Ta strona nie używa plików cookie, narzędzi analitycznych ani systemów śledzenia.",
+organic:"EKOLOGICZNE"
 },
 
 cs:{
@@ -177,7 +185,8 @@ salt:"Sůl",
 grape:"Bio hrozny z vlastní produkce",
 sulphites:"Konzervant a antioxidant: Oxid siřičitý (E220)",
 stabilizer:"Stabilizátory: žádné",
-privacy:"Tyto stránky nepoužívají cookies, analytické nástroje ani sledovací systémy."
+privacy:"Tyto stránky nepoužívají cookies, analytické nástroje ani sledovací systémy.",
+organic:"EKOLOGICKÉ"
 },
 
 sk:{
@@ -197,7 +206,8 @@ salt:"Soľ",
 grape:"Bio hrozno z vlastnej produkcie",
 sulphites:"Konzervačná látka a antioxidant: Oxid siričitý (E220)",
 stabilizer:"Stabilizátory: žiadne",
-privacy:"Táto stránka nepoužíva cookies, analytické nástroje ani sledovacie systémy."
+privacy:"Táto stránka nepoužíva cookies, analytické nástroje ani sledovacie systémy.",
+organic:"EKOLOGICKÉ"
 },
 
 sl:{
@@ -217,7 +227,8 @@ salt:"Sol",
 grape:"Ekološko grozdje iz lastne pridelave",
 sulphites:"Konzervans in antioksidant: Žveplov dioksid (E220)",
 stabilizer:"Stabilizatorji: brez",
-privacy:"Ta spletna stran ne uporablja piškotkov, analitičnih orodij ali sistemov za sledenje."
+privacy:"Ta spletna stran ne uporablja piškotkov, analitičnih orodij ali sistemov za sledenje.",
+organic:"EKOLOŠKO"
 },
 
 hr:{
@@ -237,7 +248,8 @@ salt:"Sol",
 grape:"Ekološko grožđe iz vlastite proizvodnje",
 sulphites:"Konzervans i antioksidans: Sumporov dioksid (E220)",
 stabilizer:"Stabilizatori: nema",
-privacy:"Ova web stranica ne koristi kolačiće, analitičke alate ni sustave praćenja."
+privacy:"Ova web stranica ne koristi kolačiće, analitičke alate ni sustave praćenja.",
+organic:"EKOLOŠKO"
 },
 
 hu:{
@@ -257,7 +269,8 @@ salt:"Só",
 grape:"Saját termesztésű bio szőlő",
 sulphites:"Tartósítószer és antioxidáns: Kén-dioxid (E220)",
 stabilizer:"Stabilizátorok: nincs",
-privacy:"Ez a weboldal nem használ sütiket, analitikai vagy nyomkövető rendszereket."
+privacy:"Ez a weboldal nem használ sütiket, analitikai vagy nyomkövető rendszereket.",
+organic:"BIO"
 },
 
 ro:{
@@ -277,27 +290,28 @@ salt:"Sare",
 grape:"Struguri ecologici din producția proprie",
 sulphites:"Conservant și antioxidant: Dioxid de sulf (E220)",
 stabilizer:"Stabilizatori: niciunul",
-privacy:"Acest site nu utilizează cookie-uri, instrumente analitice sau sisteme de urmărire."
+privacy:"Acest site nu utilizează cookie-uri, instrumente analitice sau sisteme de urmărire.",
+organic:"ECOLOGIC"
 },
 
-bg:{producer:"Производител",nutrition:"Хранителни стойности",ingredients:"Съставки",nutritionText:"Средни стойности за 100 ml вино",parameter:"Показател",value:"Стойност",energy:"Енергия",fat:"Мазнини",saturated:"Наситени мазнини",carbs:"Въглехидрати",sugars:"Захари",protein:"Протеини",salt:"Сол",grape:"Биологично грозде от собствено производство",sulphites:"Консервант и антиоксидант: Серен диоксид (E220)",stabilizer:"Стабилизатори: няма", privacy:"Този сайт не използва бисквитки, аналитични инструменти или системи за проследяване."},
+bg:{producer:"Производител",nutrition:"Хранителни стойности",ingredients:"Съставки",nutritionText:"Средни стойности за 100 ml вино",parameter:"Показател",value:"Стойност",energy:"Енергия",fat:"Мазнини",saturated:"Наситени мазнини",carbs:"Въглехидрати",sugars:"Захари",protein:"Протеини",salt:"Сол",grape:"Биологично грозде от собствено производство",sulphites:"Консервант и антиоксидант: Серен диоксид (E220)",stabilizer:"Стабилизатори: няма", privacy:"Този сайт не използва бисквитки, аналитични инструменти или системи за проследяване.",organic:"БИОЛОГИЧНО"},
 
-el:{producer:"Παραγωγός",nutrition:"Διατροφικές πληροφορίες",ingredients:"Συστατικά",nutritionText:"Μέσες τιμές ανά 100 ml κρασιού",parameter:"Παράμετρος",value:"Τιμή",energy:"Ενέργεια",fat:"Λιπαρά",saturated:"Κορεσμένα λιπαρά",carbs:"Υδατάνθρακες",sugars:"Σάκχαρα",protein:"Πρωτεΐνες",salt:"Αλάτι",grape:"Βιολογικά σταφύλια δικής μας παραγωγής",sulphites:"Συντηρητικό και αντιοξειδωτικό: Διοξείδιο του θείου (E220)",stabilizer:"Σταθεροποιητές: κανένας",privacy:"Αυτός ο ιστότοπος δεν χρησιμοποιεί cookies, εργαλεία ανάλυσης ή συστήματα παρακολούθησης."},
+el:{producer:"Παραγωγός",nutrition:"Διατροφικές πληροφορίες",ingredients:"Συστατικά",nutritionText:"Μέσες τιμές ανά 100 ml κρασιού",parameter:"Παράμετρος",value:"Τιμή",energy:"Ενέργεια",fat:"Λιπαρά",saturated:"Κορεσμένα λιπαρά",carbs:"Υδατάνθρακες",sugars:"Σάκχαρα",protein:"Πρωτεΐνες",salt:"Αλάτι",grape:"Βιολογικά σταφύλια δικής μας παραγωγής",sulphites:"Συντηρητικό και αντιοξειδωτικό: Διοξείδιο του θείου (E220)",stabilizer:"Σταθεροποιητές: κανένας",privacy:"Αυτός ο ιστότοπος δεν χρησιμοποιεί cookies, εργαλεία ανάλυσης ή συστήματα παρακολούθησης.",organic:"ΒΙΟΛΟΓΙΚΟ"},
 
-sv:{producer:"Producent",nutrition:"Näringsinformation",ingredients:"Ingredienser",nutritionText:"Genomsnittliga värden per 100 ml vin",parameter:"Parameter",value:"Värde",energy:"Energi",fat:"Fett",saturated:"Mättat fett",carbs:"Kolhydrater",sugars:"Sockerarter",protein:"Protein",salt:"Salt",grape:"Ekologiska druvor från egen produktion",sulphites:"Konserveringsmedel och antioxidant: Svaveldioxid (E220)",stabilizer:"Stabiliseringsmedel: inga",privacy:"Denna webbplats använder inte cookies, analysverktyg eller spårningssystem."},
+sv:{producer:"Producent",nutrition:"Näringsinformation",ingredients:"Ingredienser",nutritionText:"Genomsnittliga värden per 100 ml vin",parameter:"Parameter",value:"Värde",energy:"Energi",fat:"Fett",saturated:"Mättat fett",carbs:"Kolhydrater",sugars:"Sockerarter",protein:"Protein",salt:"Salt",grape:"Ekologiska druvor från egen produktion",sulphites:"Konserveringsmedel och antioxidant: Svaveldioxid (E220)",stabilizer:"Stabiliseringsmedel: inga",privacy:"Denna webbplats använder inte cookies, analysverktyg eller spårningssystem.",organic:"EKOLOGISK"},
 
-da:{producer:"Producent",nutrition:"Næringsindhold",ingredients:"Ingredienser",nutritionText:"Gennemsnitlige værdier pr. 100 ml vin",parameter:"Parameter",value:"Værdi",energy:"Energi",fat:"Fedt",saturated:"Mættet fedt",carbs:"Kulhydrater",sugars:"Sukkerarter",protein:"Protein",salt:"Salt",grape:"Økologiske druer fra egen produktion",sulphites:"Konserveringsmiddel og antioxidant: Svovldioxid (E220)",stabilizer:"Stabilisatorer: ingen",privacy:"Denne hjemmeside anvender ikke cookies, analyseværktøjer eller sporingssystemer."},
+da:{producer:"Producent",nutrition:"Næringsindhold",ingredients:"Ingredienser",nutritionText:"Gennemsnitlige værdier pr. 100 ml vin",parameter:"Parameter",value:"Værdi",energy:"Energi",fat:"Fedt",saturated:"Mættet fedt",carbs:"Kulhydrater",sugars:"Sukkerarter",protein:"Protein",salt:"Salt",grape:"Økologiske druer fra egen produktion",sulphites:"Konserveringsmiddel og antioxidant: Svovldioxid (E220)",stabilizer:"Stabilisatorer: ingen",privacy:"Denne hjemmeside anvender ikke cookies, analyseværktøjer eller sporingssystemer.",organic:"ØKOLOGISK"},
 
-fi:{producer:"Valmistaja",nutrition:"Ravintoarvot",ingredients:"Ainesosat",nutritionText:"Keskimääräiset arvot / 100 ml viiniä",parameter:"Parametri",value:"Arvo",energy:"Energia",fat:"Rasva",saturated:"Tyydyttyneet rasvat",carbs:"Hiilihydraatit",sugars:"Sokerit",protein:"Proteiini",salt:"Suola",grape:"Luomurypäleet omasta tuotannosta",sulphites:"Säilöntäaine ja antioksidantti: Rikkidioksidi (E220)",stabilizer:"Stabilointiaineet: ei mitään",privacy:"Tämä verkkosivusto ei käytä evästeitä, analytiikkatyökaluja tai seurantajärjestelmiä."},
+fi:{producer:"Valmistaja",nutrition:"Ravintoarvot",ingredients:"Ainesosat",nutritionText:"Keskimääräiset arvot / 100 ml viiniä",parameter:"Parametri",value:"Arvo",energy:"Energia",fat:"Rasva",saturated:"Tyydyttyneet rasvat",carbs:"Hiilihydraatit",sugars:"Sokerit",protein:"Proteiini",salt:"Suola",grape:"Luomurypäleet omasta tuotannosta",sulphites:"Säilöntäaine ja antioksidantti: Rikkidioksidi (E220)",stabilizer:"Stabilointiaineet: ei mitään",privacy:"Tämä verkkosivusto ei käytä evästeitä, analytiikkatyökaluja tai seurantajärjestelmiä.",organic:"LUOMU"},
 
-et:{producer:"Tootja",nutrition:"Toitumisalane teave",ingredients:"Koostisosad",nutritionText:"Keskmised väärtused 100 ml veini kohta",parameter:"Parameeter",value:"Väärtus",energy:"Energia",fat:"Rasvad",saturated:"Küllastunud rasvad",carbs:"Süsivesikud",sugars:"Suhkrud",protein:"Valgud",salt:"Sool",grape:"Mahepõllumajanduslikud viinamarjad oma tootmisest",sulphites:"Säilitusaine ja antioksüdant: Vääveldioksiid (E220)",stabilizer:"Stabilisaatorid: puuduvad",privacy:"See veebisait ei kasuta küpsiseid, analüütikatööriistu ega jälgimissüsteeme."},
+et:{producer:"Tootja",nutrition:"Toitumisalane teave",ingredients:"Koostisosad",nutritionText:"Keskmised väärtused 100 ml veini kohta",parameter:"Parameeter",value:"Väärtus",energy:"Energia",fat:"Rasvad",saturated:"Küllastunud rasvad",carbs:"Süsivesikud",sugars:"Suhkrud",protein:"Valgud",salt:"Sool",grape:"Mahepõllumajanduslikud viinamarjad oma tootmisest",sulphites:"Säilitusaine ja antioksüdant: Vääveldioksiid (E220)",stabilizer:"Stabilisaatorid: puuduvad",privacy:"See veebisait ei kasuta küpsiseid, analüütikatööriistu ega jälgimissüsteeme.",organic:"MAHE"},
 
-lv:{producer:"Ražotājs",nutrition:"Uzturvērtība",ingredients:"Sastāvdaļas",nutritionText:"Vidējās vērtības uz 100 ml vīna",parameter:"Parametrs",value:"Vērtība",energy:"Enerģija",fat:"Tauki",saturated:"Piesātinātās taukskābes",carbs:"Ogļhidrāti",sugars:"Cukuri",protein:"Olbaltumvielas",salt:"Sāls",grape:"Bioloģiskas vīnogas no pašu audzēšanas",sulphites:"Konservants un antioksidants: Sēra dioksīds (E220)",stabilizer:"Stabilizatori: nav",privacy:"Šī vietne neizmanto sīkfailus, analītikas rīkus vai izsekošanas sistēmas."},
+lv:{producer:"Ražotājs",nutrition:"Uzturvērtība",ingredients:"Sastāvdaļas",nutritionText:"Vidējās vērtības uz 100 ml vīna",parameter:"Parametrs",value:"Vērtība",energy:"Enerģija",fat:"Tauki",saturated:"Piesātinātās taukskābes",carbs:"Ogļhidrāti",sugars:"Cukuri",protein:"Olbaltumvielas",salt:"Sāls",grape:"Bioloģiskas vīnogas no pašu audzēšanas",sulphites:"Konservants un antioksidants: Sēra dioksīds (E220)",stabilizer:"Stabilizatori: nav",privacy:"Šī vietne neizmanto sīkfailus, analītikas rīkus vai izsekošanas sistēmas.",organic:"BIOLOĢISKS"},
 
-lt:{producer:"Gamintojas",nutrition:"Maistinė vertė",ingredients:"Sudedamosios dalys",nutritionText:"Vidutinės vertės 100 ml vyno",parameter:"Parametras",value:"Vertė",energy:"Energija",fat:"Riebalai",saturated:"Sočiosios riebalų rūgštys",carbs:"Angliavandeniai",sugars:"Cukrūs",protein:"Baltymai",salt:"Druska",grape:"Ekologiškos vynuogės iš savo ūkio",sulphites:"Konservantas ir antioksidantas: Sieros dioksidas (E220)",stabilizer:"Stabilizatoriai: nėra",privacy:"Ši svetainė nenaudoja slapukų, analizės įrankių ar sekimo sistemų."},
+lt:{producer:"Gamintojas",nutrition:"Maistinė vertė",ingredients:"Sudedamosios dalys",nutritionText:"Vidutinės vertės 100 ml vyno",parameter:"Parametras",value:"Vertė",energy:"Energija",fat:"Riebalai",saturated:"Sočiosios riebalų rūgštys",carbs:"Angliavandeniai",sugars:"Cukrūs",protein:"Baltymai",salt:"Druska",grape:"Ekologiškos vynuogės iš savo ūkio",sulphites:"Konservantas ir antioksidantas: Sieros dioksidas (E220)",stabilizer:"Stabilizatoriai: nėra",privacy:"Ši svetainė nenaudoja slapukų, analizės įrankių ar sekimo sistemų.",organic:"EKOLOGIŠKAS"},
 
-mt:{producer:"Produttur",nutrition:"Informazzjoni Nutrizzjonali",ingredients:"Ingredjenti",nutritionText:"Valuri medji għal kull 100 ml inbid",parameter:"Parametru",value:"Valur",energy:"Enerġija",fat:"Xaħam",saturated:"Xaħam saturat",carbs:"Karboidrati",sugars:"Zokkor",protein:"Proteina",salt:"Melħ",grape:"Għeneb organiku mill-produzzjoni tagħna",sulphites:"Preservattiv u antiossidant: Dijossidu tal-kubrit (E220)",stabilizer:"Stabbilizzaturi: ebda",privacy:"Dan is-sit ma jużax cookies, għodod ta’ analiżi jew sistemi ta’ traċċar."},
+mt:{producer:"Produttur",nutrition:"Informazzjoni Nutrizzjonali",ingredients:"Ingredjenti",nutritionText:"Valuri medji għal kull 100 ml inbid",parameter:"Parametru",value:"Valur",energy:"Enerġija",fat:"Xaħam",saturated:"Xaħam saturat",carbs:"Karboidrati",sugars:"Zokkor",protein:"Proteina",salt:"Melħ",grape:"Għeneb organiku mill-produzzjoni tagħna",sulphites:"Preservattiv u antiossidant: Dijossidu tal-kubrit (E220)",stabilizer:"Stabbilizzaturi: ebda",privacy:"Dan is-sit ma jużax cookies, għodod ta’ analiżi jew sistemi ta’ traċċar.",organic:"ORGANIKU"},
 
-ga:{producer:"Táirgeoir",nutrition:"Eolas Cothaithe",ingredients:"Comhábhair",nutritionText:"Meánluachanna in aghaidh 100 ml fíona",parameter:"Paraiméadar",value:"Luach",energy:"Fuinneamh",fat:"Saill",saturated:"Saill sháithithe",carbs:"Carbaihiodráití",sugars:"Siúcraí",protein:"Próitéin",salt:"Salann",grape:"Fíonchaora orgánacha ónár dtáirgeadh féin",sulphites:"Leasaitheach agus frithocsaídeoir: Dé-ocsaíd sulfair (E220)",stabilizer:"Cobhsaitheoirí: gan aon cheann",privacy:"Ní úsáideann an suíomh seo fianáin, uirlisí anailíse ná córais rianaithe."}
+ga:{producer:"Táirgeoir",nutrition:"Eolas Cothaithe",ingredients:"Comhábhair",nutritionText:"Meánluachanna in aghaidh 100 ml fíona",parameter:"Paraiméadar",value:"Luach",energy:"Fuinneamh",fat:"Saill",saturated:"Saill sháithithe",carbs:"Carbaihiodráití",sugars:"Siúcraí",protein:"Próitéin",salt:"Salann",grape:"Fíonchaora orgánacha ónár dtáirgeadh féin",sulphites:"Leasaitheach agus frithocsaídeoir: Dé-ocsaíd sulfair (E220)",stabilizer:"Cobhsaitheoirí: gan aon cheann",privacy:"Ní úsáideann an suíomh seo fianáin, uirlisí anailíse ná córais rianaithe.",organic:"ORGÁNACH"}
 
 };
