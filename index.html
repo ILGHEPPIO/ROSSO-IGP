@@ -6,7 +6,7 @@
 4
 <meta charset="UTF-8">
 5
-<meta name="viewport" content="width=device-width, initial-scale=1">
+<meta name="viewport" content="width=device-width, initial-scale=1.0">
 6
  
 7
@@ -20,268 +20,446 @@
 11
 body{
 12
-font-family:Arial,sans-serif;
+font-family: Arial, Helvetica, sans-serif;
 13
-max-width:900px;
+background:#f5f5f5;
 14
-margin:auto;
+color:#333;
 15
-padding:20px;
+margin:0;
 16
-background:#f7f7f7;
+padding:20px;
 17
 }
 18
  
 19
-.logo{
+.container{
 20
-display:block;
+max-width:900px;
 21
 margin:auto;
 22
-max-width:250px;
-23
 }
-24
+23
  
+24
+.header{
 25
-.bottle{
+background:white;
 26
-display:block;
+padding:25px;
 27
-margin:auto;
+border-radius:12px;
 28
-max-width:300px;
+text-align:center;
 29
-width:100%;
+box-shadow:0 2px 10px rgba(0,0,0,0.1);
 30
 }
 31
  
 32
-.card{
+.logo{
 33
-background:white;
+max-width:300px;
 34
-padding:20px;
+width:100%;
 35
-margin-top:20px;
-36
-border-radius:10px;
-37
-box-shadow:0 2px 8px rgba(0,0,0,.1);
-38
 }
-39
+36
  
+37
+.bottle{
+38
+max-width:300px;
+39
+width:100%;
 40
-h1,h2{
+display:block;
 41
-color:#8c1d24;
+margin:20px auto;
 42
 }
 43
  
 44
-table{
+h1{
 45
-width:100%;
+color:#8c1d24;
 46
-border-collapse:collapse;
+}
 47
-}
+ 
 48
- 
+.card{
 49
-th,td{
+background:white;
 50
-border:1px solid #ddd;
+margin-top:20px;
 51
-padding:10px;
+padding:20px;
 52
-}
+border-radius:12px;
 53
- 
+box-shadow:0 2px 10px rgba(0,0,0,0.1);
 54
-th{
-55
-background:#8c1d24;
-56
-color:white;
-57
 }
+55
+ 
+56
+h2{
+57
+color:#8c1d24;
 58
- 
+}
 59
-</style>
+ 
 60
- 
+table{
 61
-</head>
+width:100%;
 62
- 
+border-collapse:collapse;
 63
-<body>
+}
 64
  
 65
-images/logo-gheppio.jpg class="logo">
+th, td{
 66
- 
+border:1px solid #ddd;
 67
-images/igp.jpgbottle">
+padding:10px;
 68
- 
+}
 69
-<h1>Il Gheppio</h1>
+ 
 70
- 
+th{
 71
-<p><strong>Umbria Rosso IGP 2024</strong></p>
+background:#8c1d24;
 72
- 
+color:white;
 73
-<p><strong>Gradazione:</strong> 14,0% vol</p>
+}
 74
  
 75
-<div class="card">
+footer{
 76
- 
+text-align:center;
 77
-<h2>Produttore</h2>
+margin-top:30px;
 78
- 
+color:#666;
 79
-<p>
+}
 80
-IL GHEPPIO Soc. Agr. S.S. di Antonini G. e C.<br>
+ 
 81
-Loc. Argentella n.1<br>
+</style>
 82
-06036 Montefalco (PG)<br>
+ 
 83
-Italia
+</head>
 84
-</p>
+ 
 85
- 
+<body>
 86
-</div>
+ 
 87
- 
+<div class="container">
 88
-<div class="card">
+ 
 89
- 
+<div class="header">
 90
-<h2>Informazioni nutrizionali</h2>
+ 
 91
- 
+"
 92
-<table>
+alt="Logo Il Gheppio"
 93
- 
+class="logo">
 94
-<tr>
+ 
 95
-<th>Parametro</th>
+images/igp.jpg="Bottiglia Il Gheppio"
 96
-<th>Valore</th>
+class="bottle">
 97
-</tr>
+ 
 98
- 
+<h1>IL GHEPPIO</h1>
 99
-<tr><td>Energia</td><td>339 kJ / 82 kcal</td></tr>
+ 
 100
-<tr><td>Grassi</td><td>0 g</td></tr>
+<p><strong>UMBRIA ROSSO IGP 2024</strong></p>
 101
-<tr><td>Acidi grassi saturi</td><td>0 g</td></tr>
+ 
 102
-<tr><td>Carboidrati</td><td>1 g</td></tr>
+<p><strong>14,0% vol</strong></p>
 103
-<tr><td>Zuccheri</td><td>1 g</td></tr>
+ 
 104
-<tr><td>Proteine</td><td>0 g</td></tr>
-105
-<tr><td>Sale</td><td>0 g</td></tr>
-106
- 
-107
-</table>
-108
- 
-109
 </div>
-110
+105
  
-111
+106
 <div class="card">
+107
+ 
+108
+<h2>Produttore</h2>
+109
+ 
+110
+<p>
+111
+IL GHEPPIO Soc. Agr. S.S. di Antonini G. e C.<br>
 112
- 
+Loc. Argentella n. 1<br>
 113
-<h2>Ingredienti</h2>
+06036 Montefalco (PG)<br>
 114
- 
+Italia
 115
-<ul>
+</p>
 116
-<li>Uva biologica di nostra produzione</li>
+ 
 117
-<li>Anidride solforosa (E220)</li>
+</div>
 118
-<li>Nessuno stabilizzante</li>
+ 
 119
-</ul>
+<div class="card">
 120
  
 121
-</div>
+<h2>Informazioni nutrizionali</h2>
 122
  
 123
-<div class="card">
+<p>Valori medi per 100 ml di vino</p>
 124
  
 125
-<h2>Smaltimento imballaggi</h2>
+<table>
 126
  
 127
-<table>
-128
- 
-129
 <tr>
+128
+<th>Parametro</th>
+129
+<th>Valore</th>
 130
-<th>Componente</th>
-131
-<th>Codice</th>
-132
-<th>Raccolta</th>
-133
 </tr>
+131
+ 
+132
+<tr>
+133
+<td>Energia</td>
 134
- 
+<td>339 kJ / 82 kcal</td>
 135
-<tr><td>Bottiglia</td><td>GL73</td><td>Vetro</td></tr>
+</tr>
 136
-<tr><td>Capsula</td><td>C/PVC 90</td><td>Plastica</td></tr>
+ 
 137
-<tr><td>Tappo</td><td>FOR 51</td><td>Organico</td></tr>
+<tr>
 138
- 
+<td>Grassi</td>
 139
-</table>
+<td>0 g</td>
 140
- 
+</tr>
 141
-</div>
-142
  
+142
+<tr>
 143
-</body>
+<td>di cui acidi grassi saturi</td>
 144
+<td>0 g</td>
+145
+</tr>
+146
+ 
+147
+<tr>
+148
+<td>Carboidrati</td>
+149
+<td>1 g</td>
+150
+</tr>
+151
+ 
+152
+<tr>
+153
+<td>di cui zuccheri</td>
+154
+<td>1 g</td>
+155
+</tr>
+156
+ 
+157
+<tr>
+158
+<td>Proteine</td>
+159
+<td>0 g</td>
+160
+</tr>
+161
+ 
+162
+<tr>
+163
+<td>Sale</td>
+164
+<td>0 g</td>
+165
+</tr>
+166
+ 
+167
+</table>
+168
+ 
+169
+</div>
+170
+ 
+171
+<div class="card">
+172
+ 
+173
+<h2>Ingredienti</h2>
+174
+ 
+175
+<ul>
+176
+<li>Uva biologica di nostra produzione</li>
+177
+<li>Conservante e antiossidante: Anidride Solforosa (E220)</li>
+178
+<li>Stabilizzanti: nessuno</li>
+179
+</ul>
+180
+ 
+181
+</div>
+182
+ 
+183
+<div class="card">
+184
+ 
+185
+<h2>Smaltimento imballaggi</h2>
+186
+ 
+187
+<p>Verifica le disposizioni del tuo Comune.</p>
+188
+ 
+189
+<table>
+190
+ 
+191
+<tr>
+192
+<th>Componente</th>
+193
+<th>Codice</th>
+194
+<th>Raccolta</th>
+195
+</tr>
+196
+ 
+197
+<tr>
+198
+<td>Bottiglia</td>
+199
+<td>GL73</td>
+200
+<td>Vetro</td>
+201
+</tr>
+202
+ 
+203
+<tr>
+204
+<td>Capsula</td>
+205
+<td>C/PVC 90</td>
+206
+<td>Plastica</td>
+207
+</tr>
+208
+ 
+209
+<tr>
+210
+<td>Tappo</td>
+211
+<td>FOR 51</td>
+212
+<td>Organico</td>
+213
+</tr>
+214
+ 
+215
+</table>
+216
+ 
+217
+</div>
+218
+ 
+219
+<footer>
+220
+ 
+221
+Il Gheppio • Umbria Rosso IGP 2024
+222
+ 
+223
+<br><br>
+224
+ 
+225
+Questo sito non utilizza cookie di profilazione,
+226
+analytics o sistemi di tracciamento.
+227
+ 
+228
+</footer>
+229
+ 
+230
+</div>
+231
+ 
+232
+</body>
+233
 </html>
