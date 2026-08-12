@@ -18,7 +18,9 @@ grape:"Uva biologica di nostra produzione",
 sulphites:"Conservante e antiossidante: Anidride Solforosa (E220)",
 stabilizer:"Stabilizzanti: nessuno",
 privacy:"Questo sito non utilizza cookie, analytics o sistemi di tracciamento.",
-organic:"BIOLOGICO"
+organic:"BIOLOGICO",
+allergenTitle:"ALLERGENI",
+allergenText:"CONTIENE SOLFITI",
 },
 
 en:{
@@ -39,7 +41,9 @@ grape:"Organic grapes from our own production",
 sulphites:"Preservative and antioxidant: Sulphur dioxide (E220)",
 stabilizer:"Stabilizers: none",
 privacy:"This website does not use cookies, analytics or tracking systems.",
-organic:"ORGANIC"
+organic:"ORGANIC",
+allergenTitle:"ALLERGENS",
+allergenText:"CONTAINS SULPHITES",
 },
 
 fr:{
@@ -60,7 +64,9 @@ grape:"Raisins biologiques de notre production",
 sulphites:"Conservateur et antioxydant : Dioxyde de soufre (E220)",
 stabilizer:"Stabilisants : aucun",
 privacy:"Ce site n'utilise ni cookies, ni outils d'analyse, ni systèmes de suivi.",
-organic:"BIOLOGIQUE"
+organic:"BIOLOGIQUE",
+allergenTitle:"ALLERGÈNES",
+allergenText:"CONTIENT DES SULFITES",
 },
 
 de:{
@@ -81,7 +87,9 @@ grape:"Biologisch erzeugte Trauben aus eigener Produktion",
 sulphites:"Konservierungsstoff und Antioxidationsmittel: Schwefeldioxid (E220)",
 stabilizer:"Stabilisatoren: keine",
 privacy:"Diese Website verwendet keine Cookies, Analysewerkzeuge oder Tracking-Systeme.",
-organic:"BIO"
+organic:"BIO",
+allergenTitle:"ALLERGENE",
+allergenText:"ENTHÄLT SULFITE",
 },
 
 es:{
@@ -102,7 +110,9 @@ grape:"Uvas ecológicas de nuestra producción",
 sulphites:"Conservante y antioxidante: Dióxido de azufre (E220)",
 stabilizer:"Estabilizantes: ninguno",
 privacy:"Este sitio no utiliza cookies, herramientas analíticas ni sistemas de seguimiento.",
-organic:"ECOLÓGICO"
+organic:"ECOLÓGICO",
+allergenTitle:"ALÉRGENOS",
+allergenText:"CONTIENE SULFITOS",
 },
 
 pt:{
