@@ -54,11 +54,11 @@ body{
 
 .bio-text{
 color:#3a8f28;
-font-size:1.4rem;
+font-size:1.6rem;
 font-weight:800;
-letter-spacing:2px;
-margin-top:-10px;
-margin-bottom:15px;
+letter-spacing:3px;
+text-transform:uppercase;
+margin:10px 0 15px 0;
 }
     
 .bottle{
@@ -203,7 +203,8 @@ Questo sito non utilizza cookie, analytics o sistemi di tracciamento.
 <p class="wine-name">
 UMBRIA ROSSO IGP 2024
 </p>
-<p class="bio-text">
+    
+<p class="bio-text" id="organicText">
 BIOLOGICO
 </p>
 
@@ -417,6 +418,9 @@ translations[lang].stabilizer;
 
 document.getElementById("privacyNotice").innerText =
 translations[lang].privacy;
+
+document.getElementById("organicText").innerText =
+translations[lang].organic;
 
 }
 window.onload = function() {
