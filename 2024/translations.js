@@ -4,13 +4,9 @@ it:{
 producer:"Produttore",
 nutrition:"Informazioni nutrizionali",
 ingredients:"Ingredienti",
-
 nutritionText:"Valori medi per 100 ml di vino",
-
-grape:"Uva biologica di nostra produzione",
-sulphites:"Conservante e antiossidante: Anidride Solforosa (E220)",
-stabilizer:"Stabilizzanti: nessuno",
-
+parameter:"Parametro",
+value:"Valore",
 energy:"Energia",
 fat:"Grassi",
 saturated:"Acidi grassi saturi",
@@ -18,45 +14,37 @@ carbs:"Carboidrati",
 sugars:"Zuccheri",
 protein:"Proteine",
 salt:"Sale",
-
-parameter:"Parametro",
-value:"Valore"
+grape:"Uva biologica di nostra produzione",
+sulphites:"Conservante e antiossidante: Anidride Solforosa (E220)",
+stabilizer:"Stabilizzanti: nessuno"
 },
 
 en:{
 producer:"Producer",
 nutrition:"Nutrition Information",
 ingredients:"Ingredients",
-
 nutritionText:"Average values per 100 ml of wine",
-
-grape:"Organic grapes from our own production",
-sulphites:"Preservative and antioxidant: Sulphur dioxide (E220)",
-stabilizer:"Stabilizers: none",
-
+parameter:"Nutrient",
+value:"Value",
 energy:"Energy",
 fat:"Fat",
-saturated:"Saturated fat",
+saturated:"Saturated Fat",
 carbs:"Carbohydrates",
 sugars:"Sugars",
 protein:"Protein",
 salt:"Salt",
-
-parameter:"Nutrient",
-value:"Value"
+grape:"Organic grapes from our own production",
+sulphites:"Preservative and antioxidant: Sulphur dioxide (E220)",
+stabilizer:"Stabilizers: none"
 },
 
 fr:{
 producer:"Producteur",
 nutrition:"Informations nutritionnelles",
 ingredients:"Ingrédients",
-
 nutritionText:"Valeurs moyennes pour 100 ml de vin",
-
-grape:"Raisins biologiques de notre production",
-sulphites:"Conservateur et antioxydant : Dioxyde de soufre (E220)",
-stabilizer:"Stabilisants : aucun",
-
+parameter:"Paramètre",
+value:"Valeur",
 energy:"Énergie",
 fat:"Matières grasses",
 saturated:"Acides gras saturés",
@@ -64,22 +52,18 @@ carbs:"Glucides",
 sugars:"Sucres",
 protein:"Protéines",
 salt:"Sel",
-
-parameter:"Paramètre",
-value:"Valeur"
+grape:"Raisins biologiques de notre production",
+sulphites:"Conservateur et antioxydant : Dioxyde de soufre (E220)",
+stabilizer:"Stabilisants : aucun"
 },
 
 de:{
 producer:"Hersteller",
 nutrition:"Nährwertangaben",
 ingredients:"Zutaten",
-
 nutritionText:"Durchschnittswerte pro 100 ml Wein",
-
-grape:"Biologisch erzeugte Trauben aus eigener Produktion",
-sulphites:"Konservierungsstoff und Antioxidationsmittel: Schwefeldioxid (E220)",
-stabilizer:"Stabilisatoren: keine",
-
+parameter:"Parameter",
+value:"Wert",
 energy:"Energie",
 fat:"Fett",
 saturated:"Gesättigte Fettsäuren",
@@ -87,8 +71,219 @@ carbs:"Kohlenhydrate",
 sugars:"Zucker",
 protein:"Eiweiß",
 salt:"Salz",
+grape:"Biologisch erzeugte Trauben aus eigener Produktion",
+sulphites:"Konservierungsstoff und Antioxidationsmittel: Schwefeldioxid (E220)",
+stabilizer:"Stabilisatoren: keine"
+},
 
+es:{
+producer:"Productor",
+nutrition:"Información nutricional",
+ingredients:"Ingredientes",
+nutritionText:"Valores medios por 100 ml de vino",
+parameter:"Parámetro",
+value:"Valor",
+energy:"Energía",
+fat:"Grasas",
+saturated:"Grasas saturadas",
+carbs:"Hidratos de carbono",
+sugars:"Azúcares",
+protein:"Proteínas",
+salt:"Sal",
+grape:"Uvas ecológicas de nuestra producción",
+sulphites:"Conservante y antioxidante: Dióxido de azufre (E220)",
+stabilizer:"Estabilizantes: ninguno"
+},
+
+pt:{
+producer:"Produtor",
+nutrition:"Informação nutricional",
+ingredients:"Ingredientes",
+nutritionText:"Valores médios por 100 ml de vinho",
+parameter:"Parâmetro",
+value:"Valor",
+energy:"Energia",
+fat:"Gorduras",
+saturated:"Gorduras saturadas",
+carbs:"Hidratos de carbono",
+sugars:"Açúcares",
+protein:"Proteínas",
+salt:"Sal",
+grape:"Uvas biológicas da nossa produção",
+sulphites:"Conservante e antioxidante: Dióxido de enxofre (E220)",
+stabilizer:"Estabilizantes: nenhum"
+},
+
+nl:{
+producer:"Producent",
+nutrition:"Voedingsinformatie",
+ingredients:"Ingrediënten",
+nutritionText:"Gemiddelde waarden per 100 ml wijn",
 parameter:"Parameter",
-value:"Wert"
-}
+value:"Waarde",
+energy:"Energie",
+fat:"Vetten",
+saturated:"Verzadigde vetten",
+carbs:"Koolhydraten",
+sugars:"Suikers",
+protein:"Eiwitten",
+salt:"Zout",
+grape:"Biologische druiven uit eigen productie",
+sulphites:"Conserveermiddel en antioxidant: Zwaveldioxide (E220)",
+stabilizer:"Stabilisatoren: geen"
+},
+
+pl:{
+producer:"Producent",
+nutrition:"Informacje żywieniowe",
+ingredients:"Składniki",
+nutritionText:"Średnie wartości dla 100 ml wina",
+parameter:"Parametr",
+value:"Wartość",
+energy:"Energia",
+fat:"Tłuszcze",
+saturated:"Kwasy tłuszczowe nasycone",
+carbs:"Węglowodany",
+sugars:"Cukry",
+protein:"Białko",
+salt:"Sól",
+grape:"Ekologiczne winogrona z własnej produkcji",
+sulphites:"Konserwant i przeciwutleniacz: Dwutlenek siarki (E220)",
+stabilizer:"Stabilizatory: brak"
+},
+
+cs:{
+producer:"Výrobce",
+nutrition:"Nutriční údaje",
+ingredients:"Složení",
+nutritionText:"Průměrné hodnoty na 100 ml vína",
+parameter:"Parametr",
+value:"Hodnota",
+energy:"Energie",
+fat:"Tuky",
+saturated:"Nasycené mastné kyseliny",
+carbs:"Sacharidy",
+sugars:"Cukry",
+protein:"Bílkoviny",
+salt:"Sůl",
+grape:"Bio hrozny z vlastní produkce",
+sulphites:"Konzervant a antioxidant: Oxid siřičitý (E220)",
+stabilizer:"Stabilizátory: žádné"
+},
+
+sk:{
+producer:"Výrobca",
+nutrition:"Výživové údaje",
+ingredients:"Zloženie",
+nutritionText:"Priemerné hodnoty na 100 ml vína",
+parameter:"Parameter",
+value:"Hodnota",
+energy:"Energia",
+fat:"Tuky",
+saturated:"Nasýtené mastné kyseliny",
+carbs:"Sacharidy",
+sugars:"Cukry",
+protein:"Bielkoviny",
+salt:"Soľ",
+grape:"Bio hrozno z vlastnej produkcie",
+sulphites:"Konzervačná látka a antioxidant: Oxid siričitý (E220)",
+stabilizer:"Stabilizátory: žiadne"
+},
+
+sl:{
+producer:"Proizvajalec",
+nutrition:"Hranilne vrednosti",
+ingredients:"Sestavine",
+nutritionText:"Povprečne vrednosti na 100 ml vina",
+parameter:"Parameter",
+value:"Vrednost",
+energy:"Energija",
+fat:"Maščobe",
+saturated:"Nasičene maščobe",
+carbs:"Ogljikovi hidrati",
+sugars:"Sladkorji",
+protein:"Beljakovine",
+salt:"Sol",
+grape:"Ekološko grozdje iz lastne pridelave",
+sulphites:"Konzervans in antioksidant: Žveplov dioksid (E220)",
+stabilizer:"Stabilizatorji: brez"
+},
+
+hr:{
+producer:"Proizvođač",
+nutrition:"Nutritivne vrijednosti",
+ingredients:"Sastojci",
+nutritionText:"Prosječne vrijednosti na 100 ml vina",
+parameter:"Parametar",
+value:"Vrijednost",
+energy:"Energija",
+fat:"Masti",
+saturated:"Zasićene masne kiseline",
+carbs:"Ugljikohidrati",
+sugars:"Šećeri",
+protein:"Proteini",
+salt:"Sol",
+grape:"Ekološko grožđe iz vlastite proizvodnje",
+sulphites:"Konzervans i antioksidans: Sumporov dioksid (E220)",
+stabilizer:"Stabilizatori: nema"
+},
+
+hu:{
+producer:"Gyártó",
+nutrition:"Tápérték adatok",
+ingredients:"Összetevők",
+nutritionText:"Átlagos értékek 100 ml borra",
+parameter:"Paraméter",
+value:"Érték",
+energy:"Energia",
+fat:"Zsír",
+saturated:"Telített zsírsavak",
+carbs:"Szénhidrát",
+sugars:"Cukor",
+protein:"Fehérje",
+salt:"Só",
+grape:"Saját termesztésű bio szőlő",
+sulphites:"Tartósítószer és antioxidáns: Kén-dioxid (E220)",
+stabilizer:"Stabilizátorok: nincs"
+},
+
+ro:{
+producer:"Producător",
+nutrition:"Informații nutriționale",
+ingredients:"Ingrediente",
+nutritionText:"Valori medii pentru 100 ml vin",
+parameter:"Parametru",
+value:"Valoare",
+energy:"Energie",
+fat:"Grăsimi",
+saturated:"Acizi grași saturați",
+carbs:"Carbohidrați",
+sugars:"Zaharuri",
+protein:"Proteine",
+salt:"Sare",
+grape:"Struguri ecologici din producția proprie",
+sulphites:"Conservant și antioxidant: Dioxid de sulf (E220)",
+stabilizer:"Stabilizatori: niciunul"
+},
+
+bg:{producer:"Производител",nutrition:"Хранителни стойности",ingredients:"Съставки",nutritionText:"Средни стойности за 100 ml вино",parameter:"Показател",value:"Стойност",energy:"Енергия",fat:"Мазнини",saturated:"Наситени мазнини",carbs:"Въглехидрати",sugars:"Захари",protein:"Протеини",salt:"Сол",grape:"Биологично грозде от собствено производство",sulphites:"Консервант и антиоксидант: Серен диоксид (E220)",stabilizer:"Стабилизатори: няма"},
+
+el:{producer:"Παραγωγός",nutrition:"Διατροφικές πληροφορίες",ingredients:"Συστατικά",nutritionText:"Μέσες τιμές ανά 100 ml κρασιού",parameter:"Παράμετρος",value:"Τιμή",energy:"Ενέργεια",fat:"Λιπαρά",saturated:"Κορεσμένα λιπαρά",carbs:"Υδατάνθρακες",sugars:"Σάκχαρα",protein:"Πρωτεΐνες",salt:"Αλάτι",grape:"Βιολογικά σταφύλια δικής μας παραγωγής",sulphites:"Συντηρητικό και αντιοξειδωτικό: Διοξείδιο του θείου (E220)",stabilizer:"Σταθεροποιητές: κανένας"},
+
+sv:{producer:"Producent",nutrition:"Näringsinformation",ingredients:"Ingredienser",nutritionText:"Genomsnittliga värden per 100 ml vin",parameter:"Parameter",value:"Värde",energy:"Energi",fat:"Fett",saturated:"Mättat fett",carbs:"Kolhydrater",sugars:"Sockerarter",protein:"Protein",salt:"Salt",grape:"Ekologiska druvor från egen produktion",sulphites:"Konserveringsmedel och antioxidant: Svaveldioxid (E220)",stabilizer:"Stabiliseringsmedel: inga"},
+
+da:{producer:"Producent",nutrition:"Næringsindhold",ingredients:"Ingredienser",nutritionText:"Gennemsnitlige værdier pr. 100 ml vin",parameter:"Parameter",value:"Værdi",energy:"Energi",fat:"Fedt",saturated:"Mættet fedt",carbs:"Kulhydrater",sugars:"Sukkerarter",protein:"Protein",salt:"Salt",grape:"Økologiske druer fra egen produktion",sulphites:"Konserveringsmiddel og antioxidant: Svovldioxid (E220)",stabilizer:"Stabilisatorer: ingen"},
+
+fi:{producer:"Valmistaja",nutrition:"Ravintoarvot",ingredients:"Ainesosat",nutritionText:"Keskimääräiset arvot / 100 ml viiniä",parameter:"Parametri",value:"Arvo",energy:"Energia",fat:"Rasva",saturated:"Tyydyttyneet rasvat",carbs:"Hiilihydraatit",sugars:"Sokerit",protein:"Proteiini",salt:"Suola",grape:"Luomurypäleet omasta tuotannosta",sulphites:"Säilöntäaine ja antioksidantti: Rikkidioksidi (E220)",stabilizer:"Stabilointiaineet: ei mitään"},
+
+et:{producer:"Tootja",nutrition:"Toitumisalane teave",ingredients:"Koostisosad",nutritionText:"Keskmised väärtused 100 ml veini kohta",parameter:"Parameeter",value:"Väärtus",energy:"Energia",fat:"Rasvad",saturated:"Küllastunud rasvad",carbs:"Süsivesikud",sugars:"Suhkrud",protein:"Valgud",salt:"Sool",grape:"Mahepõllumajanduslikud viinamarjad oma tootmisest",sulphites:"Säilitusaine ja antioksüdant: Vääveldioksiid (E220)",stabilizer:"Stabilisaatorid: puuduvad"},
+
+lv:{producer:"Ražotājs",nutrition:"Uzturvērtība",ingredients:"Sastāvdaļas",nutritionText:"Vidējās vērtības uz 100 ml vīna",parameter:"Parametrs",value:"Vērtība",energy:"Enerģija",fat:"Tauki",saturated:"Piesātinātās taukskābes",carbs:"Ogļhidrāti",sugars:"Cukuri",protein:"Olbaltumvielas",salt:"Sāls",grape:"Bioloģiskas vīnogas no pašu audzēšanas",sulphites:"Konservants un antioksidants: Sēra dioksīds (E220)",stabilizer:"Stabilizatori: nav"},
+
+lt:{producer:"Gamintojas",nutrition:"Maistinė vertė",ingredients:"Sudedamosios dalys",nutritionText:"Vidutinės vertės 100 ml vyno",parameter:"Parametras",value:"Vertė",energy:"Energija",fat:"Riebalai",saturated:"Sočiosios riebalų rūgštys",carbs:"Angliavandeniai",sugars:"Cukrūs",protein:"Baltymai",salt:"Druska",grape:"Ekologiškos vynuogės iš savo ūkio",sulphites:"Konservantas ir antioksidantas: Sieros dioksidas (E220)",stabilizer:"Stabilizatoriai: nėra"},
+
+mt:{producer:"Produttur",nutrition:"Informazzjoni Nutrizzjonali",ingredients:"Ingredjenti",nutritionText:"Valuri medji għal kull 100 ml inbid",parameter:"Parametru",value:"Valur",energy:"Enerġija",fat:"Xaħam",saturated:"Xaħam saturat",carbs:"Karboidrati",sugars:"Zokkor",protein:"Proteina",salt:"Melħ",grape:"Għeneb organiku mill-produzzjoni tagħna",sulphites:"Preservattiv u antiossidant: Dijossidu tal-kubrit (E220)",stabilizer:"Stabbilizzaturi: ebda"},
+
+ga:{producer:"Táirgeoir",nutrition:"Eolas Cothaithe",ingredients:"Comhábhair",nutritionText:"Meánluachanna in aghaidh 100 ml fíona",parameter:"Paraiméadar",value:"Luach",energy:"Fuinneamh",fat:"Saill",saturated:"Saill sháithithe",carbs:"Carbaihiodráití",sugars:"Siúcraí",protein:"Próitéin",salt:"Salann",grape:"Fíonchaora orgánacha ónár dtáirgeadh féin",sulphites:"Leasaitheach agus frithocsaídeoir: Dé-ocsaíd sulfair (E220)",stabilizer:"Cobhsaitheoirí: gan aon cheann"}
+
 };
