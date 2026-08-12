@@ -1,27 +1,94 @@
 const translations = {
 
-it:{producer:"Produttore",nutrition:"Informazioni nutrizionali",ingredients:"Ingredienti",disposal:"Smaltimento imballaggi",nutritionText:"Valori medi per 100 ml di vino",disposalText:"Verifica le disposizioni del tuo Comune."},
-en:{producer:"Producer",nutrition:"Nutrition Information",ingredients:"Ingredients",disposal:"Packaging Disposal",nutritionText:"Average values per 100 ml of wine",disposalText:"Check local disposal regulations."},
-fr:{producer:"Producteur",nutrition:"Informations nutritionnelles",ingredients:"Ingrédients",disposal:"Élimination des emballages",nutritionText:"Valeurs moyennes pour 100 ml de vin",disposalText:"Vérifiez les dispositions de votre commune."},
-de:{producer:"Hersteller",nutrition:"Nährwertangaben",ingredients:"Zutaten",disposal:"Verpackungsentsorgung",nutritionText:"Durchschnittswerte pro 100 ml Wein",disposalText:"Bitte lokale Entsorgungsvorschriften beachten."},
-es:{producer:"Productor",nutrition:"Información nutricional",ingredients:"Ingredientes",disposal:"Eliminación de envases",nutritionText:"Valores medios por 100 ml de vino",disposalText:"Consulte las normas locales de reciclaje."},
-pt:{producer:"Produtor",nutrition:"Informação nutricional",ingredients:"Ingredientes",disposal:"Eliminação de embalagens",nutritionText:"Valores médios por 100 ml de vinho",disposalText:"Verifique os regulamentos locais."},
-nl:{producer:"Producent",nutrition:"Voedingsinformatie",ingredients:"Ingrediënten",disposal:"Verpakking verwijderen",nutritionText:"Gemiddelde waarden per 100 ml wijn",disposalText:"Controleer de lokale voorschriften."},
-pl:{producer:"Producent",nutrition:"Informacje żywieniowe",ingredients:"Składniki",disposal:"Utylizacja opakowań",nutritionText:"Średnie wartości na 100 ml wina",disposalText:"Sprawdź lokalne przepisy."},
-cs:{producer:"Výrobce",nutrition:"Nutriční údaje",ingredients:"Složení",disposal:"Likvidace obalů",nutritionText:"Průměrné hodnoty na 100 ml vína",disposalText:"Řiďte se místními předpisy."},
-sk:{producer:"Výrobca",nutrition:"Výživové údaje",ingredients:"Zloženie",disposal:"Likvidácia obalov",nutritionText:"Priemerné hodnoty na 100 ml vína",disposalText:"Overte miestne predpisy."},
-sl:{producer:"Proizvajalec",nutrition:"Hranilne vrednosti",ingredients:"Sestavine",disposal:"Odlaganje embalaže",nutritionText:"Povprečne vrednosti na 100 ml vina",disposalText:"Preverite lokalne predpise."},
-hr:{producer:"Proizvođač",nutrition:"Nutritivne vrijednosti",ingredients:"Sastojci",disposal:"Odlaganje ambalaže",nutritionText:"Prosječne vrijednosti na 100 ml vina",disposalText:"Provjerite lokalne propise."},
-hu:{producer:"Gyártó",nutrition:"Tápérték adatok",ingredients:"Összetevők",disposal:"Csomagolás ártalmatlanítása",nutritionText:"Átlagos értékek 100 ml borra",disposalText:"Kövesse a helyi előírásokat."},
-ro:{producer:"Producător",nutrition:"Informații nutriționale",ingredients:"Ingrediente",disposal:"Eliminarea ambalajelor",nutritionText:"Valori medii pentru 100 ml de vin",disposalText:"Verificați reglementările locale."},
-bg:{producer:"Производител",nutrition:"Хранителни стойности",ingredients:"Съставки",disposal:"Изхвърляне на опаковки",nutritionText:"Средни стойности за 100 ml вино",disposalText:"Спазвайте местните разпоредби."},
-el:{producer:"Παραγωγός",nutrition:"Διατροφικές πληροφορίες",ingredients:"Συστατικά",disposal:"Απόρριψη συσκευασιών",nutritionText:"Μέσες τιμές ανά 100 ml κρασιού",disposalText:"Ελέγξτε τους τοπικούς κανονισμούς."},
-sv:{producer:"Producent",nutrition:"Näringsinformation",ingredients:"Ingredienser",disposal:"Förpackningssortering",nutritionText:"Genomsnittliga värden per 100 ml vin",disposalText:"Kontrollera lokala regler."},
-da:{producer:"Producent",nutrition:"Næringsindhold",ingredients:"Ingredienser",disposal:"Bortskaffelse af emballage",nutritionText:"Gennemsnitlige værdier pr. 100 ml vin",disposalText:"Kontroller lokale regler."},
-fi:{producer:"Valmistaja",nutrition:"Ravintoarvot",ingredients:"Ainesosat",disposal:"Pakkauksen hävittäminen",nutritionText:"Keskimääräiset arvot / 100 ml viiniä",disposalText:"Tarkista paikalliset määräykset."},
-et:{producer:"Tootja",nutrition:"Toitumisalane teave",ingredients:"Koostisosad",disposal:"Pakendi käitlemine",nutritionText:"Keskmised väärtused 100 ml veini kohta",disposalText:"Järgige kohalikke nõudeid."},
-lv:{producer:"Ražotājs",nutrition:"Uzturvērtība",ingredients:"Sastāvdaļas",disposal:"Iepakojuma utilizācija",nutritionText:"Vidējās vērtības uz 100 ml vīna",disposalText:"Ievērojiet vietējos noteikumus."},
-lt:{producer:"Gamintojas",nutrition:"Maistinė vertė",ingredients:"Sudedamosios dalys",disposal:"Pakuočių šalinimas",nutritionText:"Vidutinės vertės 100 ml vyno",disposalText:"Laikykitės vietinių taisyklių."},
-mt:{producer:"Produttur",nutrition:"Informazzjoni Nutrizzjonali",ingredients:"Ingredjenti",disposal:"Rimi tal-imballaġġ",nutritionText:"Valuri medji għal kull 100 ml inbid",disposalText:"Iċċekkja r-regolamenti lokali."},
-ga:{producer:"Táirgeoir",nutrition:"Eolas Cothaithe",ingredients:"Comhábhair",disposal:"Diúscairt Pacáistíochta",nutritionText:"Meánluachanna in aghaidh 100 ml fíona",disposalText:"Seiceáil rialacháin áitiúla."}
+it:{
+producer:"Produttore",
+nutrition:"Informazioni nutrizionali",
+ingredients:"Ingredienti",
+
+nutritionText:"Valori medi per 100 ml di vino",
+
+grape:"Uva biologica di nostra produzione",
+sulphites:"Conservante e antiossidante: Anidride Solforosa (E220)",
+stabilizer:"Stabilizzanti: nessuno",
+
+energy:"Energia",
+fat:"Grassi",
+saturated:"Acidi grassi saturi",
+carbs:"Carboidrati",
+sugars:"Zuccheri",
+protein:"Proteine",
+salt:"Sale",
+
+parameter:"Parametro",
+value:"Valore"
+},
+
+en:{
+producer:"Producer",
+nutrition:"Nutrition Information",
+ingredients:"Ingredients",
+
+nutritionText:"Average values per 100 ml of wine",
+
+grape:"Organic grapes from our own production",
+sulphites:"Preservative and antioxidant: Sulphur dioxide (E220)",
+stabilizer:"Stabilizers: none",
+
+energy:"Energy",
+fat:"Fat",
+saturated:"Saturated fat",
+carbs:"Carbohydrates",
+sugars:"Sugars",
+protein:"Protein",
+salt:"Salt",
+
+parameter:"Nutrient",
+value:"Value"
+},
+
+fr:{
+producer:"Producteur",
+nutrition:"Informations nutritionnelles",
+ingredients:"Ingrédients",
+
+nutritionText:"Valeurs moyennes pour 100 ml de vin",
+
+grape:"Raisins biologiques de notre production",
+sulphites:"Conservateur et antioxydant : Dioxyde de soufre (E220)",
+stabilizer:"Stabilisants : aucun",
+
+energy:"Énergie",
+fat:"Matières grasses",
+saturated:"Acides gras saturés",
+carbs:"Glucides",
+sugars:"Sucres",
+protein:"Protéines",
+salt:"Sel",
+
+parameter:"Paramètre",
+value:"Valeur"
+},
+
+de:{
+producer:"Hersteller",
+nutrition:"Nährwertangaben",
+ingredients:"Zutaten",
+
+nutritionText:"Durchschnittswerte pro 100 ml Wein",
+
+grape:"Biologisch erzeugte Trauben aus eigener Produktion",
+sulphites:"Konservierungsstoff und Antioxidationsmittel: Schwefeldioxid (E220)",
+stabilizer:"Stabilisatoren: keine",
+
+energy:"Energie",
+fat:"Fett",
+saturated:"Gesättigte Fettsäuren",
+carbs:"Kohlenhydrate",
+sugars:"Zucker",
+protein:"Eiweiß",
+salt:"Salz",
+
+parameter:"Parameter",
+value:"Wert"
+}
 };
