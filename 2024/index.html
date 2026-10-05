@@ -274,30 +274,30 @@ Italia
 
 <div class="card">
 
-<h2>Smaltimento imballaggi</h2>
+<h2 id="packagingTitle">Smaltimento imballaggi</h2>
 
-<p>Verifica le disposizioni del tuo Comune.</p>
+<p id="packagingText">Verifica le disposizioni del tuo Comune.</p>
 
 <table>
 <tr>
-<th>Componente</th>
-<th>Codice</th>
-<th>Raccolta</th>
+<th id="packagingComponentHeader">Componente</th>
+<th id="packagingCodeHeader">Codice</th>
+<th id="packagingCollectionHeader">Raccolta</th>
 </tr>
 <tr>
-<td>Bottiglia</td>
+<td id="packagingBottleLabel">Bottiglia</td>
 <td>GL73</td>
-<td>Vetro</td>
+<td id="packagingGlassValue">Vetro</td>
 </tr>
 <tr>
-<td>Capsula</td>
+<td id="packagingCapsuleLabel">Capsula</td>
 <td>C/PVC 90</td>
-<td>Plastica</td>
+<td id="packagingPlasticValue">Plastica</td>
 </tr>
 <tr>
-<td>Tappo</td>
+<td id="packagingCorkLabel">Tappo</td>
 <td>FOR 51 (Sughero)</td>
-<td>Organico</td>
+<td id="packagingOrganicValue">Organico</td>
 </tr>
 </table>
 
@@ -338,6 +338,17 @@ document.getElementById("privacyNotice").innerText = translations[lang].privacy;
 document.getElementById("organicText").innerText = translations[lang].organic || "BIOLOGICO";
 document.getElementById("allergenTitle").innerText = translations[lang].allergenTitle;
 document.getElementById("allergenText").innerText = translations[lang].allergenText;
+document.getElementById("packagingTitle").innerText = translations[lang].packagingTitle;
+document.getElementById("packagingText").innerText = translations[lang].packagingText;
+document.getElementById("packagingComponentHeader").innerText = translations[lang].packagingComponent;
+document.getElementById("packagingCodeHeader").innerText = translations[lang].packagingCode;
+document.getElementById("packagingCollectionHeader").innerText = translations[lang].packagingCollection;
+document.getElementById("packagingBottleLabel").innerText = translations[lang].packagingBottle;
+document.getElementById("packagingCapsuleLabel").innerText = translations[lang].packagingCapsule;
+document.getElementById("packagingCorkLabel").innerText = translations[lang].packagingCork;
+document.getElementById("packagingGlassValue").innerText = translations[lang].packagingGlass;
+document.getElementById("packagingPlasticValue").innerText = translations[lang].packagingPlastic;
+document.getElementById("packagingOrganicValue").innerText = translations[lang].packagingOrganic;
 
 }
 
@@ -354,4 +365,3 @@ window.onload = function() {
 
 </body>
 </html>
-
