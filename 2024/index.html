@@ -53,16 +53,22 @@ body{
 }
 
 .bio-text{
-color:#3a8f28;
-font-size:1.6rem;
-font-weight:800;
-letter-spacing:3px;
-text-transform:uppercase;
-margin:10px 0 15px 0;
+    color:#3a8f28;
+    font-size:1.6rem;
+    font-weight:800;
+    letter-spacing:3px;
+    text-transform:uppercase;
+    margin:10px 0 15px 0;
 }
-    
+
+.bottle-section{
+    position:relative;
+    display:inline-block;
+    margin-top:20px;
+}
+
 .bottle{
-    max-width:260px;
+    max-width:230px;
     width:100%;
     display:block;
     margin:20px auto;
@@ -105,6 +111,7 @@ footer{
 ul{
     padding-left:20px;
 }
+
 .privacy-notice{
     background:#eef7ee;
     border:1px solid #b8d8b8;
@@ -115,38 +122,16 @@ ul{
     text-align:center;
     font-size:0.95rem;
 }
-    
-.bottle-section{
-    position:relative;
-    display:inline-block;
-    margin-top:20px;
-}
-
-.bottle{
-    max-width:260px;
-    width:100%;
-    display:block;
-}
 
 .bio-logo{
     position:absolute;
     bottom:15px;
     right:-20px;
-    width:90px;
+    width:120px;
     height:auto;
     background:white;
     border-radius:50%;
     padding:3px;
-}
-    
-.bio-logo{
-    width:120px;
-    height:auto;
-}
-
-.bottle{
-    max-width:230px;
-    width:100%;
 }
 
 .allergen{
@@ -160,7 +145,7 @@ ul{
     border-radius:10px;
     background:#fff4f4;
 }
-    
+
 </style>
 </head>
 
@@ -169,9 +154,7 @@ ul{
 <div class="container">
 
 <div class="language">
-
 <select id="language" onchange="changeLanguage()">
-    
 <option value="it">Italiano</option>
 <option value="en">English</option>
 <option value="fr">Français</option>
@@ -196,46 +179,27 @@ ul{
 <option value="lt">Lietuvių</option>
 <option value="mt">Malti</option>
 <option value="ga">Gaeilge</option>
-    
 </select>
-
 </div>
-    
+
 <div id="privacyNotice" class="privacy-notice">
 Questo sito non utilizza cookie, analytics o sistemi di tracciamento.
 </div>
-    
+
 <div class="header">
 
-<img src="logo-gheppio.jpg"
-     alt="Logo Il Gheppio"
-     class="logo">
+<img src="logo-gheppio.jpg" alt="Logo Il Gheppio" class="logo">
 
+<p class="wine-name">UMBRIA ROSSO IGP 2024</p>
 
-<p class="wine-name">
-UMBRIA ROSSO IGP 2024
-</p>
-    
-<p class="bio-text" id="organicText">
-BIOLOGICO
-</p>
+<p class="bio-text" id="organicText">BIOLOGICO</p>
 
 <div class="bottle-section">
-
-    <img src="igp.jpg"
-         alt="Umbria Rosso IGP 2024"
-         class="bottle">
-
-    <img src="Bioitalia.png"
-         alt="Certificazione biologica"
-         class="bio-logo">
-
+    <img src="igp.jpg" alt="Umbria Rosso IGP 2024" class="bottle">
+    <img src="Bioitalia.png" alt="Certificazione biologica" class="bio-logo">
 </div>
-    
 
-<h2 id="producerTitle">
-Produttore
-</h2>
+<h2 id="producerTitle">Produttore</h2>
 
 <p id="producerText">
 IL GHEPPIO Soc. Agr. S.S. di Antonini G. e C.<br>
@@ -248,66 +212,51 @@ Italia
 
 <div class="card">
 
-<h2 id="allergenTitle">
-ALLERGENI
-</h2>
+<h2 id="allergenTitle">ALLERGENI</h2>
 
-<p id="allergenText" class="allergen">
-CONTIENE SOLFITI
-</p>
+<p id="allergenText" class="allergen">CONTIENE SOLFITI</p>
 
 </div>
-    
+
 <div class="card">
 
 <h2 id="nutritionTitle">Informazioni nutrizionali</h2>
 
-<p id="nutritionText">
-Valori medi per 100 ml di vino
-</p>
+<p id="nutritionText">Valori medi per 100 ml di vino</p>
 
 <table>
-
 <tr>
 <th id="parameterHeader">Parametro</th>
 <th id="valueHeader">Valore</th>
 </tr>
-
 <tr>
 <td id="energyLabel">Energia</td>
 <td>345 kJ / 83 kcal</td>
 </tr>
-
 <tr>
 <td id="fatLabel">Grassi</td>
 <td>0 g</td>
 </tr>
-
 <tr>
 <td id="saturatedLabel">Acidi grassi saturi</td>
 <td>0 g</td>
 </tr>
-
 <tr>
 <td id="carbsLabel">Carboidrati</td>
 <td>1 g</td>
 </tr>
-
 <tr>
-<td id="sugarsLabel"> di cui Zuccheri</td>
+<td id="sugarsLabel">di cui zuccheri</td>
 <td>1 g</td>
 </tr>
-
 <tr>
 <td id="proteinLabel">Proteine</td>
 <td>0 g</td>
 </tr>
-
 <tr>
 <td id="saltLabel">Sale</td>
 <td>0 g</td>
 </tr>
-
 </table>
 
 </div>
@@ -317,15 +266,8 @@ Valori medi per 100 ml di vino
 <h2 id="ingredientsTitle">Ingredienti</h2>
 
 <ul>
-
-<li id="grapeItem">
-Uva biologica di nostra produzione
-</li>
-
-<li id="sulphitesItem">
-Conservante e antiossidante: Anidride Solforosa (E220)
-</li>
-
+<li id="grapeItem">Uva biologica di nostra produzione</li>
+<li id="sulphitesItem">Conservante e antiossidante: Anidride Solforosa (E220)</li>
 </ul>
 
 </div>
@@ -334,45 +276,34 @@ Conservante e antiossidante: Anidride Solforosa (E220)
 
 <h2>Smaltimento imballaggi</h2>
 
-<p>
-Verifica le disposizioni del tuo Comune.
-</p>
+<p>Verifica le disposizioni del tuo Comune.</p>
 
 <table>
-
 <tr>
 <th>Componente</th>
 <th>Codice</th>
 <th>Raccolta</th>
 </tr>
-
 <tr>
 <td>Bottiglia</td>
 <td>GL73</td>
 <td>Vetro</td>
 </tr>
-
 <tr>
 <td>Capsula</td>
 <td>C/PVC 90</td>
 <td>Plastica</td>
 </tr>
-
 <tr>
 <td>Tappo</td>
 <td>FOR 51 (Sughero)</td>
 <td>Organico</td>
 </tr>
-
 </table>
 
 </div>
 
-<footer>
-
-Il Gheppio • Umbria Rosso IGP 2024
-
-</footer>
+<footer>Il Gheppio • Umbria Rosso IGP 2024</footer>
 
 </div>
 
@@ -388,80 +319,39 @@ if(!translations[lang]){
     lang="it";
 }
 
-document.getElementById("producerTitle").innerText =
-translations[lang].producer;
-
-document.getElementById("nutritionTitle").innerText =
-translations[lang].nutrition;
-
-document.getElementById("ingredientsTitle").innerText =
-translations[lang].ingredients;
-
-document.getElementById("nutritionText").innerText =
-translations[lang].nutritionText;
-
-document.getElementById("parameterHeader").innerText =
-translations[lang].parameter;
-
-document.getElementById("valueHeader").innerText =
-translations[lang].value;
-
-document.getElementById("energyLabel").innerText =
-translations[lang].energy;
-
-document.getElementById("fatLabel").innerText =
-translations[lang].fat;
-
-document.getElementById("saturatedLabel").innerText =
-translations[lang].saturated;
-
-document.getElementById("carbsLabel").innerText =
-translations[lang].carbs;
-
-document.getElementById("sugarsLabel").innerText =
-translations[lang].sugars;
-
-document.getElementById("proteinLabel").innerText =
-translations[lang].protein;
-
-document.getElementById("saltLabel").innerText =
-translations[lang].salt;
-
-document.getElementById("grapeItem").innerText =
-translations[lang].grape;
-
-document.getElementById("sulphitesItem").innerText =
-translations[lang].sulphites;
-
-document.getElementById("privacyNotice").innerText =
-translations[lang].privacy;
-
-document.getElementById("organicText").innerText =
-translations[lang].organic || "BIOLOGICO";
-
-document.getElementById("allergenTitle").innerText =
-translations[lang].allergenTitle;
-
-document.getElementById("allergenText").innerText =
-translations[lang].allergenText;
+document.getElementById("producerTitle").innerText = translations[lang].producer;
+document.getElementById("nutritionTitle").innerText = translations[lang].nutrition;
+document.getElementById("ingredientsTitle").innerText = translations[lang].ingredients;
+document.getElementById("nutritionText").innerText = translations[lang].nutritionText;
+document.getElementById("parameterHeader").innerText = translations[lang].parameter;
+document.getElementById("valueHeader").innerText = translations[lang].value;
+document.getElementById("energyLabel").innerText = translations[lang].energy;
+document.getElementById("fatLabel").innerText = translations[lang].fat;
+document.getElementById("saturatedLabel").innerText = translations[lang].saturated;
+document.getElementById("carbsLabel").innerText = translations[lang].carbs;
+document.getElementById("sugarsLabel").innerText = translations[lang].sugars;
+document.getElementById("proteinLabel").innerText = translations[lang].protein;
+document.getElementById("saltLabel").innerText = translations[lang].salt;
+document.getElementById("grapeItem").innerText = translations[lang].grape;
+document.getElementById("sulphitesItem").innerText = translations[lang].sulphites;
+document.getElementById("privacyNotice").innerText = translations[lang].privacy;
+document.getElementById("organicText").innerText = translations[lang].organic || "BIOLOGICO";
+document.getElementById("allergenTitle").innerText = translations[lang].allergenTitle;
+document.getElementById("allergenText").innerText = translations[lang].allergenText;
 
 }
 
 window.onload = function() {
-
-    const browserLang =
-        navigator.language.substring(0,2);
-
-    const selector =
-        document.getElementById("language");
-
+    const browserLang = navigator.language.substring(0,2);
+    const selector = document.getElementById("language");
     if(translations[browserLang]){
         selector.value = browserLang;
         changeLanguage();
     }
-
 };
+
 </script>
 
 </body>
 </html>
+
